@@ -24,6 +24,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: tacogram_yah_production
+  database: tacogram-yah_production
   username: tacogram-yah
   password: <%= ENV["TACOGRAM-YAH_DATABASE_PASSWORD"] %>
